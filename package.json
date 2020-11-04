@@ -1,0 +1,36 @@
+{
+  "name": "ejercicios-bed",
+  "version": "1.0.0",
+  "description": "prueba para BED",
+  "main": "one.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
+  },
+  "scripts": {
+    "dev": "nodemon six.js --exec babel-node",
+    "test": "jest --detectOpenHandles --runInBand --config ./jest.config.default.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primitivorm/ejercicios-bed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/primitivorm/ejercicios-bed/issues"
+  },
+  "homepage": "https://github.com/primitivorm/ejercicios-bed#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.6.2",
+    "jest-chain": "^1.1.5",
+    "nodemon": "^2.0.6"
+  }
+}
